@@ -1,1 +1,1 @@
-source lib/git-completion.bash
+source $DIR/lib/git-completion.bash
