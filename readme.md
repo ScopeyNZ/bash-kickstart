@@ -7,5 +7,5 @@ Some bash defaults I have with MacOS
 In `.bash_profile`
 
 ```bash
-source path/to/repo/bundle.bash
+source path/to/repo/bundle.sh
 ```

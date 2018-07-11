@@ -1,3 +1,3 @@
-alias gra="~/scripts/remote-add.sh"
-alias gitroot="~/scripts/add-vcs-root.sh"
-alias serve="~/scripts/serve.sh"
+alias gra="$DIR/scripts/remote-add.sh"
+alias gitroot="$DIR/scripts/add-vcs-root.sh"
+alias serve="$DIR/scripts/serve.sh"
