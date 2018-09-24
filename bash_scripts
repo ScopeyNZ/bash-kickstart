@@ -1,3 +1,5 @@
 alias gra="$DIR/scripts/remote-add.sh"
 alias gitroot="$DIR/scripts/add-vcs-root.sh"
 alias serve="$DIR/scripts/serve.sh"
+alias xphp="$DIR/scripts/cli-xdebug.sh"
+alias rpr="$DIR/scripts/hub-pull-request-extension.sh"

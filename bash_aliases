@@ -13,3 +13,4 @@ alias gca="git commit --amend"
 
 alias ssc="ssconsole"
 alias punt="vendor/bin/phpunit -d memory_limit=2G"
+alias xpunt="xphp vendor/bin/phpunit -d memory_limit=2G"
