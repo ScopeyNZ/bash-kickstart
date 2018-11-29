@@ -7,11 +7,13 @@ alias 'up'='cd_up'
 alias git=hub
 alias fork="git fork --remote-name=cc --org=creative-commoners"
 
-alias s="git status"
+alias gs="git status"
 alias gc="git commit"
 alias gca="git commit --amend"
+alias gcan="git commit --amend --no-edit"
 alias codist="git checkout -- client/dist"
-alias grc="git reset HEAD client/dist; git checkout -- client/dist; git rebase --continue; git status"
+alias grc="git rebase --continue"
+alias grrc="git reset HEAD client/dist; git checkout -- client/dist; git rebase --continue; git status"
 
 alias ssc="ssconsole"
 alias punt="vendor/bin/phpunit -d memory_limit=2G"

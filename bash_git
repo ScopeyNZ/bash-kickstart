@@ -1,1 +1,5 @@
-source $DIR/lib/git-completion.bash
+if [ -f /usr/local/etc/bash_completion.d ]; then 
+	source /usr/local/etc/bash_completion.d
+else
+	source $DIR/lib/git-completion.bash
+fi
