@@ -21,3 +21,5 @@ alias gcl='git log --oneline --pretty=format:"* %s (%an) - %h" --no-merges'
 alias ssc="ssconsole"
 alias punt="vendor/bin/phpunit -d memory_limit=2G"
 alias xpunt="xphp vendor/bin/phpunit -d memory_limit=2G"
+
+source $DIR/lib/auto-nvm.alias

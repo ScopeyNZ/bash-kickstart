@@ -27,7 +27,7 @@ REMOTENAME=${1:-cc}
 REPO=$3
 
 if [[ -z $REPO ]] ; then
-	if ! ORIGIN=`git remote -v | head -1 | grep -oP '(?<=github.com[/:])([^/.]+/[^.\s]+(\.git)?)' | sed -E "s/[^\/]+/$TEAM/"`; then
+	if ! ORIGIN=`git remote -v | head -1 | grep -oP '(?<=github.com[/:])([^/.]+/(?:[^\s](?!git))+)' | sed -E "s/[^\/]+/$TEAM/"`; then
 		echo "Could not determine remote. Please provide a remote: "
 		read REMOTE
 	else 
