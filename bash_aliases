@@ -17,6 +17,13 @@ alias gd="git diff -- ':(exclude)client/dist'"
 alias grc="git rebase --continue"
 alias grrc="git reset HEAD client/dist; git checkout -- client/dist; git rebase --continue; git status"
 alias gcl='git log --oneline --pretty=format:"* %s (%an) - %h" --no-merges'
+alias co="git checkout"
+alias gpf="git push --force-with-lease"
+
+alias yb="yarn build"
+alias yd="yarn dev"
+alias yt="yarn test"
+alias yw="yarn watch"
 
 alias ssc="ssconsole"
 alias punt="vendor/bin/phpunit -d memory_limit=2G"
