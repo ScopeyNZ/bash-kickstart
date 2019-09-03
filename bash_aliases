@@ -28,5 +28,3 @@ alias yw="yarn watch"
 alias ssc="ssconsole"
 alias punt="vendor/bin/phpunit -d memory_limit=2G"
 alias xpunt="xphp vendor/bin/phpunit -d memory_limit=2G"
-
-source $DIR/lib/auto-nvm.alias
