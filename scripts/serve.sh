@@ -12,8 +12,7 @@ echo "
     CustomLog "/usr/local/var/log/httpd/$SITE.loc-access_log" common
 </VirtualHost>" >> /usr/local/etc/httpd/extra/httpd-vhosts.conf 
 
-echo "Need sudo for hosts & apache restart"
-echo "127.0.0.1	$SITE.loc" | sudo tee -a /etc/hosts > /dev/null
+echo "Need sudo for apache restart"
 sudo apachectl restart
 
 echo "Served at $SITE.loc"
